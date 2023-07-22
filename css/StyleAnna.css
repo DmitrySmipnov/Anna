@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Beermoney";
+    src: url(../fonts/beermoney/beermoney.woff) format(woff);
+}
+
+*{
+    /*border: 1px dashed black;*/
+    box-sizing: border-box;
+}
+
+html{
+}
+
+body{
+    width: auto;
+    background-color: #32CD32;
+    margin: 0px;
+}
+
+.mainFoto{
+    width: 100%;
+}
+
+
