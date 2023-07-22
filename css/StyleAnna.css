@@ -4,21 +4,8 @@
 }
 
 *{
-    /*border: 1px dashed black;*/
+    border: 1px dashed black;
     box-sizing: border-box;
-}
-
-html{
-}
-
-body{
-    width: auto;
-    background-color: #32CD32;
-    margin: 0px;
-}
-
-.mainFoto{
-    width: 100%;
 }
 
 
