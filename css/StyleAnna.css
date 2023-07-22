@@ -3,9 +3,55 @@
     src: url(../fonts/beermoney/beermoney.woff) format(woff);
 }
 
-*{
-    border: 1px dashed black;
+html {
     box-sizing: border-box;
 }
 
+*, *:before, *:after {
+    box-sizing: inherit;
+    /* border: 1px dashed black; */
+}
 
+.wrapper{
+    width: 100%;
+    height: 100%;
+
+    background-color: #ADFF2F;
+}
+
+.button{
+    border-radius: 40px;
+    background-color: #98FB98;
+}
+
+.top-section {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    width: 250px;
+    height: 250px;
+}
+
+.button-rehabilitation {
+    width: 550px;
+    height: 250px;
+}
+
+.middle-section {
+    height: 500px;
+}
+.bottom-section {
+}
+
+.swiper{
+    height: 100%;
+}
+
+.foto{
+    width: 100%;
+    height: auto;
+}

@@ -3,12 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Помощь Аннушке</title>
+    <link href="css/swiper-bundle.min.css" rel="stylesheet">
     <link href="css/StyleAnna.css" rel="stylesheet">
     <meta name="keywords" content="лечение, помощь, благотворительность, ребенок">
     <meta name="description" content="сайт о моей дочери Аннушке">
 </head>
 
 <body>
+    <div class="wrapper">
+        <section class="top-section">
+            <div class="button menu"></div>
+            <div class="button button-rehabilitation"></div>
+        </section>
+        <section class="middle-section">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <img class="foto" src="/img/MainFoto.JPG" alt="">
+                  </div>
+                  <div class="swiper-slide">Slide 2</div>
+                  <div class="swiper-slide">Slide 3</div>
+                 
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
+        <section class="bottom-section"></section>
+    </div>
+    
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script src="/js/index.js"></script>
 </body>
 
 </html>
